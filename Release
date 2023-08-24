@@ -4,7 +4,6 @@ local w1 = library:Window("ZdReHUB") -- Text
 
 w1:Button(
     "Car Modifier",
-    "CM",
     function()
         _G.RedGUI = false
 _G.Theme = "Mocha" -- Must disable or remove _G.RedGUI to use
@@ -37,7 +36,7 @@ w1:Slider(
 
 w1:Toggle(
     "Freeze",
-    "FRZ",
+    "frz",
     false,
     function(toggled)
         game.Players.LocalPlayer.Character.HumanoidRootPart.Anchored = toggled
@@ -55,4 +54,4 @@ w1:Button(
     end
 ) -- Text, Callback
 
-w1:Label("made by ZdRe") -- Text
+w1:Label("ZdRe") -- Text
